@@ -50,7 +50,10 @@ $(function() {
   $('ul .text-03').css('background-color', 'blue');
   $('ul .text-05').css('background-color', 'blue');
 
-  $('a[target=_blank]').css('font-size', '60px')
-    .css('text-decoration', 'none');
+  $('#submit').on('click', function() {
+    $('ul').find('a').css('background-color', 'white');
+  });
 
+  $('ul li:nth-child(5)').last().css('border', '5px solid green');
+  
 });
