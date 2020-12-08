@@ -42,4 +42,15 @@ $(function() {
     onChange(1);
   });
 
+  $('#slideTitle').fadeOut('slow').fadeIn('slow');
+
+  $('ul').css('background-color', 'red');
+
+  $('ul .text-01').css('background-color', 'black');
+  $('ul .text-03').css('background-color', 'blue');
+  $('ul .text-05').css('background-color', 'blue');
+
+  $('a[target=_blank]').css('font-size', '60px')
+    .css('text-decoration', 'none');
+
 });

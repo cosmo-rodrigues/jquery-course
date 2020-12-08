@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -29,5 +30,9 @@
 }
 
 img {
-  height: 100px;
+  height: 200px;
+}
+
+ul {
+  list-style: none;
 }
